@@ -13,22 +13,6 @@ async function getImage(url) {
 }
 
 
-/* function allImages(data) {
-const images  = document.querySelector('.images')
-document.querySelector('.images').innerHTML = ''
-
-    data.results.forEach((image) => {
-        const imageCard = document.createElement('div')
-        imageCard.classList.add('card')
-        imageCard.innerHTML = `
-                    <div class="card__image">
-                        <img class="card__image_img" src="${image.urls.regular}" 
-                             alt="${image.title}">
-                    </div>
-        `
-        images.appendChild(imageCard)
-    })   
-} */
 
     function allImages(data) {
         const images  = document.querySelector('.images')
